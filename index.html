@@ -25,6 +25,16 @@
 </head>
 <body class="bg-[#fffcf5] text-stone-900">
     <div id="root"></div>
-<script type="module" src="/index.tsx"></script>
+<script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(reg => console.log('Service Worker registrado', reg))
+            .catch(err => console.log('Error al registrar SW', err));
+        });
+      }
+    </script>
+
+    <script type="module" src="/index.tsx"></script>
 </body>
 </html>
