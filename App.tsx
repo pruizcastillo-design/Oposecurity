@@ -1,9 +1,7 @@
-
 import React, { useState } from 'react';
 import { Confidence, Question, AppPhase, TestStats } from './types';
 import ConfidenceSelector from './components/ConfidenceSelector';
 import ResultsDashboard from './components/ResultsDashboard';
-
 const OPTIONS = ['A', 'B', 'C', 'D'];
 
 const App: React.FC = () => {
