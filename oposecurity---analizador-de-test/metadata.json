@@ -1,0 +1,5 @@
+{
+  "name": "OpoSecurity - Analizador de Test",
+  "description": "Herramienta avanzada para opositores que analiza la seguridad al contestar preguntas tipo test, clasificando respuestas por niveles de confianza (Semáforo: Rojo, Amarillo, Verde).",
+  "requestFramePermissions": []
+}
