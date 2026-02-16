@@ -1,5 +1,5 @@
 {
-  "short_name": "Mi IA App",
+  "short_name": "Oposecurity APP",
   "name": "Mi Aplicación de AI Studio",
   "icons": [
     {
@@ -13,7 +13,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
